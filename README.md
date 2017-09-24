@@ -1,8 +1,10 @@
-# This is my completed NYT web app code test.
-# The app works best in Chrome.  Also, the original instructions below still apply.
-# Tom Duggan, 9/24/17
 
 # NYT Web Products Code Test
+
+## This is my completed NYT web app code test.
+## The app works best in Chrome.  Also, the original instructions below still apply.
+## Tom Duggan, 9/24/17
+
 
 ## Setup
 1. Install [Node.js](https://nodejs.org/) if you don't already have it.
