@@ -1,0 +1,99 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.times-app {
+    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 8px;
+    font-family: 'Merriweather', serif;
+}
+
+.times-app .story-list:not(:first-child) {
+    margin-top: 15px;
+}
+
+.times-app .story-list .section-title {
+    border: 1px solid #d5d5d8;
+    background-color: #ffffff;
+    padding-left: 20px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    box-shadow: inset 0 2px 0px 0px #000000;
+}
+
+.times-app .story-item {
+    border: 1px solid #d5d5d8;
+    background-color: #ffffff;
+    border-top: 0;
+}
+
+.times-app .story-text {
+    padding: 30px 30px 22px;
+}
+
+.times-app .story-text .title {
+    font-size: 22px;
+}
+
+.times-app .story-text .abstract {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.times-app .story-text .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.times-app .story-text .byline {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #bfbfbf;
+}
+
+.times-app .story-text .share {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/share.png);
+    cursor: pointer;
+    margin-right: 0;
+    flex-shrink: 0;
+}
+
+.times-app .story-text .share:hover {
+    opacity: 0.8;
+}
+
+.times-app .story-photo {
+    position: relative;
+}
+
+.times-app .story-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.times-app .story-photo .copyright {
+    font-size: 9px;
+    color: #bfbfbf;
+    position: absolute;
+    bottom: -16px;
+    right: 14px;
+}

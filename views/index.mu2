@@ -1,0 +1,20 @@
+<html>
+
+    <head>
+        <title>The New York Times</title>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/timesApp.css"/>
+    </head>
+
+    <body>
+        <div class='times-app'>{{{ prerenderedApp }}}</div>
+
+        <script>
+            window.initialState = {{{ bootstrap }}};
+        </script>
+        <script src='js/jquery-3.2.1.min.js'></script>
+        <script src='js/underscore-min.js'></script>
+        <script src="build/bundle.js"></script>
+    </body>
+
+</html>
